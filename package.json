@@ -3,6 +3,7 @@
   "description": "Angular Smart Table",
   "author": "Akveo <contact@akveo.com>",
   "homepage": "http://akveo.github.io/ng2-smart-table/",
+  "version": "1.0.0",
   "repository": {
     "type": "git",
     "url": "https://github.com/matjazgros/ng2-smart-table.git"
