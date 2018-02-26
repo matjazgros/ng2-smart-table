@@ -36,7 +36,7 @@ const assetFiles = [
 ];
 
 /** Builds components to UMD bundle. */
-task('build:table', [':build:table:bundle:umd']);
+task('build:table', sequenceTask(':build:table:bundle:umd'));
 
 /** Builds components for ng2-smart-table releases */
 task(':build:table:release', sequenceTask(
