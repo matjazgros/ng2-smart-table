@@ -1,5 +1,5 @@
 {
-  "name": "ng2-smart-table-demo",
+  "name": "ng2-smart-table",
   "description": "Angular Smart Table",
   "author": "Akveo <contact@akveo.com>",
   "homepage": "http://akveo.github.io/ng2-smart-table/",
@@ -46,13 +46,13 @@
     "@angular/platform-browser-dynamic": "~5.0.0",
     "@angular/platform-server": "~5.0.0",
     "@angular/router": "~5.0.0",
-    "core-js": "2.4.1",
-    "highlight.js": "9.10.0",
-    "lodash": "4.17.4",
-    "ng2-completer": "1.2.2",
-    "normalize.css": "5.0.0",
-    "rxjs": "5.4.0",
-    "zone.js": "0.8.10"
+    "core-js": "~2.4.1",
+    "highlight.js": "~9.10.0",
+    "lodash": "~4.17.4",
+    "ng2-completer": "~1.2.2",
+    "normalize.css": "~5.0.0",
+    "rxjs": "~5.4.0",
+    "zone.js": "~0.8.10"
   },
   "devDependencies": {
     "@angular/cli": "1.0.4",
