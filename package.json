@@ -1,5 +1,5 @@
 {
-  "name": "ng2-smart-table-demo",
+  "name": "matjazgros/ng2-smart-table-demo",
   "description": "Angular Smart Table",
   "author": "Akveo <contact@akveo.com>",
   "version": "1.2.3",
@@ -7,6 +7,7 @@
     "type": "git",
     "url": "https://github.com/matjazgros/ng2-smart-table.git"
   },
+  "main": "dist/ng2-smart-table/index.js",
   "bugs": {
     "url": "https://github.com/matjazgros/ng2-smart-table/issues"
   },
@@ -17,6 +18,7 @@
     "rimraf": "rimraf",
     "ngc": "node_modules/.bin/ngc",
     "start": "ng serve",
+    "postinstall": "build:release",
     "start:aot": "ng serve --aot",
     "build": "npm run clean:dist && ng build",
     "build:prod": "npm run build -- --prod",
