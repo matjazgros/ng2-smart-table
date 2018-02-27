@@ -17,7 +17,6 @@
     "rimraf": "rimraf",
     "ngc": "node_modules/.bin/ngc",
     "start": "ng serve",
-    "postinstall": "npm run build:release",
     "start:aot": "ng serve --aot",
     "build": "npm run clean:dist && ng build",
     "build:prod": "npm run build -- --prod",
@@ -35,7 +34,7 @@
     "clean:dist": "npm run rimraf -- dist",
     "changelog": "standard-changelog"
   },
-    "dependencies": {
+  "dependencies": {
     "@angular/animations": "^5.2.0",
     "@angular/common": "^5.2.0",
     "@angular/compiler": "^5.2.0",
