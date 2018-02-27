@@ -17,6 +17,7 @@
     "rimraf": "rimraf",
     "ngc": "node_modules/.bin/ngc",
     "start": "ng serve",
+    "postinstall": "build:ci",
     "start:aot": "ng serve --aot",
     "build": "npm run clean:dist && ng build",
     "build:prod": "npm run build -- --prod",
