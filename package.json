@@ -18,7 +18,6 @@
     "rimraf": "rimraf",
     "ngc": "node_modules/.bin/ngc",
     "start": "ng serve",
-    "postinstall": "npm run build:release",
     "start:aot": "ng serve --aot",
     "build": "npm run clean:dist && ng build",
     "build:prod": "npm run build -- --prod",
@@ -53,7 +52,9 @@
     "ng2-completer": "1.6.3",
     "normalize.css": "^7.0.0",
     "rxjs": "^5.5.6",
-    "zone.js": "^0.8.19",
+    "zone.js": "^0.8.19"
+  },
+  "devDependencies": {
     "@angular/cli": "1.6.7",
     "@angular/compiler-cli": "^5.2.0",
     "@types/chalk": "0.4.31",
